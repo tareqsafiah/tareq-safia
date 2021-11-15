@@ -1,10 +1,10 @@
 <template>
 <div id="contact">
-    <navigation id="nav"/>
-      <div class="continer mt-2" data-v-822f34ec="" >
-    <div class="row" data-v-822f34ec="">
-    <div class="col-sm-12 col-md-7 col" data-v-822f34ec="" id="forrm">
-      <div id="card1" class="left-15-anim v-card v-sheet theam--light" data-v-d53af812="" data-v-822f34ec="" style="height: 612px;">
+    <navbar id="nav"/>
+      <div class="continer">
+    <div class="row">
+    <div class="col-sm-12 col-md-7 col" id="forrm">
+      <div id="card1" class="left-15-anim v-card v-sheet theam--light" style="height: 700px;">
   <v-form
     ref="form"
     v-model="valid"
@@ -17,7 +17,6 @@
       label="Name"
       required
     ></v-text-field>
-
     <v-text-field
       v-model="Company"
       :rules="CompanyRules"
@@ -71,9 +70,9 @@
   </v-form>
       </div>
   </div>
-  <div class="col-sm-12 col-md-5 col" data-v-822f34ec="" id="forrm">
-    <div div id="card1" class="right-15-anim v-card v-sheet theam--light" data-v-822f34ec="" style="min-height: 500px;">
-<div class="continer mt-2" data-v-822f34ec="">
+  <div class="col-sm-12 col-md-5 col" id="forrm">
+    <div div id="card1" class="right-15-anim v-card v-sheet theam--light" style="min-height: 700px;">
+<div class="continer mt-2">
   <div class="row">
     <div class="col-md-11 col-12">
       <h3><i class="v-icon notranslate text-h5 mdi mdi-map-marker-right theam--light" aria-hidden="true">  </i>  Location:</h3>
@@ -97,12 +96,12 @@
        <div class="row">
     <div class="col-md-11 col-12">
       <h4>You Can also click her to contact Us:</h4>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="mailto:tareq.safyah@gmail.com" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-email theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://www.facebook.com/eng.comunicat" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-facebook theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://wa.me/963992752024" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-whatsapp theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://www.instagram.com/tareq.safiah/" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-instagram theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://twitter.com/SlayerSafia" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://www.youtube.com/channel/UCNPSyfLmpM_wT-oxvDaunJA" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-youtube theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="mailto:tareq.safyah@gmail.com" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-email theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.facebook.com/eng.comunicat" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-facebook theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://wa.me/963992752024" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-whatsapp theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.instagram.com/tareq.safiah/" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-instagram theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://twitter.com/SlayerSafia" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.youtube.com/channel/UCNPSyfLmpM_wT-oxvDaunJA" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-youtube theme--light" style="font-size: 24px;"></i></a></span></button>
        </div>
   </div>
   </div>
@@ -113,12 +112,12 @@
 </div>
 </template>
 <script>
-import navigation from '../components/header.vue'
+import navbar from '../components/header.vue'
 
 export default {
   name: 'contact',
   components: {
-    navigation
+    navbar
   },
   data: () => ({
     valid: true,
@@ -164,10 +163,7 @@ export default {
 <style>
 #forrm{
     /* margin-left: 10px; */
-    margin: auto;
-}
-#conta{
-  border: 1px solid;
+    top: 30px;
 }
 #sub{
     background-color: rgb(0, 153, 255);
@@ -204,23 +200,18 @@ background-color: #dfe6e9;
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
 }
 element {
-
-    min-height: 500px;
+    min-height: 800px;
 }
 .v-sheet.v-card {
     border-radius: 4px;
 }
-*, ::after, ::before {
-    background-repeat: no-repeat;
-    box-sizing: inherit;
-}
-.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
-    width: 100%;
-    padding: 12px;
-}
 .col-md-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
+}
+.col-md-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
 }
 .col-sm-12 {
     flex: 0 0 100%;
@@ -230,25 +221,6 @@ element {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
-}
-.v-card {
-    overflow-wrap: break-word;
-    white-space: normal;
-}
-* {
-    padding: 0;
-    margin: 0;
-}
-.v-card {
-    border-width: thin;
-    display: block;
-    max-width: 100%;
-    outline: none;
-    text-decoration: none;
-    transition-property: box-shadow,opacity;
-    overflow-wrap: break-word;
-    position: relative;
-    white-space: normal;
 }
 .left-15-anim {
     -webkit-animation: transation-left 1.5s;
