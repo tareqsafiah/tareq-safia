@@ -1,34 +1,28 @@
 <template>
-<div id="Services">
-  <navbar id="nav"/>
-  <v-content>
-  <div class="continer px-4 px-lg-5 mt-5">
-<div class="row">
-  <div class="col-sm-12 col-md-3 col-12 down-2-anim" id="card1" style="position:relative">
-    <div id="app">
-  <v-app id="inspire">
-    <v-hover v-slot="{ hover }">
-      <v-card
-        class="mx-auto"
-        color="grey lighten-4"
-        width="100%"
-        height="100%"
-      >
-        <v-img
-          :aspect-ratio="16/10"
-          src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2440/Shape-2018-LR-106_d2799ae4d9532e75c7b76f8fe7c80560.webp"
-        >
-          <v-expand-transition>
+  <div id="mywork">
+    <navbar id="nav"/>
+  <div class="continer">
+   <div class="row">
+    <div class="col-sm-12 col-md-3 down-2-anim" id="card1">
+      <v-hover v-slot="{ hover }">
+        <div class="v-card v-sheet theme--light" style="height: 90%;">
+              <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
+            <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
+                </div>
+            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <v-expand-transition>
             <div
               v-if="hover"
-              class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
+              class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h3 white--text"
               style="height: 100%;"
             >
               Get Service ?
             </div>
           </v-expand-transition>
-        </v-img>
-        <v-card-text
+            </div>
+            <div class="v-responsive__content" style="width: 626px;">
+            </div></div>
+            <v-card-text
           class="pt-6"
           style="position: relative;"
         >
@@ -43,188 +37,155 @@
           >
             <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
           </v-btn>
-          <div class="font-weight-light grey--text text-h6 mb-2">
-            For the perfect
+          <h3 class="text-h4 font-weight-light Very light red--text mb-2">
+            Web Development
+          </h3>
+          <div class="font-weight-light text-h6 mb-2">
+           Any brand knows that a website is their most important marketing tool. It can deliver rich content, to a wide audience in a short period of time.
           </div>
+            </v-card-text>
+            </div>
+    </v-hover>
+  </div>
+<div class="col-sm-12 col-md-3 up-2-anim" id="card2">
+<v-hover v-slot="{ hover }">
+        <div class="v-card v-sheet theme--light" style="height: 100%;">
+              <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
+            <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
+                </div>
+            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <v-expand-transition>
+            <div
+              v-if="hover"
+              class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h3 white--text"
+              style="height: 100%;"
+            >
+              Get Service ?
+            </div>
+          </v-expand-transition>
+            </div>
+            <div class="v-responsive__content" style="width: 626px;">
+            </div></div>
+            <v-card-text
+          class="pt-6"
+          style="position: relative;"
+        >
+          <v-btn
+            absolute
+            color="#ff7675"
+            class="white--text"
+            fab
+            large
+            right
+            top
+          >
+            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+          </v-btn>
+          <h3 class="text-h4 font-weight-light Very light red--text mb-2">
+            SEO
+          </h3>
+          <div class="font-weight-light text-h6 mb-2">
+              Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
+              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.          </div>
+            </v-card-text>
+            </div>
+  </v-hover>
+</div>
+<div class="col-sm-12 col-md-3 down-2-anim" id="card3">
+<v-hover v-slot="{ hover }">
+          <div class="v-card v-sheet theme--light" style="height: 90%;">
+              <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
+            <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
+                </div>
+            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <v-expand-transition>
+            <div
+              v-if="hover"
+              class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h3 white--text"
+              style="height: 100%;"
+            >
+              Get Service ?
+            </div>
+          </v-expand-transition>
+            </div>
+            <div class="v-responsive__content" style="width: 626px;">
+            </div></div>
+            <v-card-text
+          class="pt-6"
+          style="position: relative;"
+        >
+          <v-btn
+            absolute
+            color="#ff7675"
+            class="white--text"
+            fab
+            large
+            right
+            top
+          >
+            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+          </v-btn>
+          <h3 class="text-h4 font-weight-light Very light red--text mb-2">
+            Graphic Design
+          </h3>
+          <div class="font-weight-light text-h6 mb-2">
+            A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
+            A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
+          </div>
+        </v-card-text>
+            </div>
+  </v-hover>
+
+</div>
+<div class="col-sm-12 col-md-3 up-2-anim" id="card4">
+<v-hover v-slot="{ hover }">
+            <div class="v-card v-sheet theme--light" style="height: 100%; max-width:100%;">
+              <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
+            <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
+                </div>
+            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <v-expand-transition>
+            <div
+              v-if="hover"
+              class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h3 white--text"
+              style="height: 100%;"
+            >
+              Get Service ?
+            </div>
+          </v-expand-transition>
+            </div>
+            <div class="v-responsive__content" style="width: 626px;">
+            </div></div>
+            <v-card-text
+          class="pt-6"
+          style="position: relative;"
+        >
+          <v-btn
+            absolute
+            color="#ff7675"
+            class="white--text"
+            fab
+            large
+            right
+            top
+          >
+            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+          </v-btn>
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Web Design
           </h3>
           <div class="font-weight-light text-h6 mb-2">
-            A website is a brands most important marketing tool. It can deliver rich content, to a wide audience in a short period of time.
-          </div>
-        </v-card-text>
-      </v-card>
-    </v-hover>
-  </v-app>
-</div>
-  </div>
-  <br><br>
-<div class="col-sm-12 col-md-3 col-12 up-2-anim" id="card2" style="position:relative">
-<v-app id="inspire">
-<v-hover v-slot="{ hover }">
-    <v-card
-      class="mx-auto"
-      color="grey lighten-4"
-      width="100%"
-      height="100%"
-    >
-      <v-img
-        :aspect-ratio="16/10"
-        src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp"
-      >
-        <v-expand-transition>
-          <div
-            v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
-            style="height: 100%;"
-          >
-            Get Service ?
-          </div>
-        </v-expand-transition>
-      </v-img>
-      <v-card-text
-        class="pt-6"
-        style="position: relative;"
-      >
-        <v-btn
-          absolute
-          color="#ff7675"
-          class="white--text"
-          fab
-          large
-          right
-          top
-        >
-          <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
-        </v-btn>
-        <div class="font-weight-light grey--text text-h6 mb-2">
-          For the perfect
-        </div>
-        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
-          SEO
-        </h3>
-        <div class="font-weight-light text-h6 mb-2">
-          Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
-        A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
-        </div>
-      </v-card-text>
-    </v-card>
-  </v-hover>
-</v-app>
-</div>
-<br><br>
-<div class="col-sm-12 col-md-3 col-12 down-2-anim" id="card3" style="position:relative">
-<v-app id="inspire">
-<v-hover v-slot="{ hover }">
-    <v-card
-      class="mx-auto"
-      color="grey lighten-4"
-      width="100%"
-      height="100%"
-    >
-      <v-img
-        :aspect-ratio="16/10"
-        src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/142670/Shape-2018-LR-100_5472332afa344033d2bf9e7b6b9d883e.jpg"
-      >
-        <v-expand-transition>
-          <div
-            v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
-            style="height: 100%;"
-          >
-            Get Service ?
-          </div>
-        </v-expand-transition>
-      </v-img>
-      <v-card-text
-        class="pt-6"
-        style="position: relative;"
-      >
-        <v-btn
-          absolute
-          color="#ff7675"
-          class="white--text"
-          fab
-          large
-          right
-          top
-        >
-          <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
-        </v-btn>
-        <div class="font-weight-light grey--text text-h6 mb-2">
-          For the perfect
-        </div>
-        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
-          Craft CMS
-        </h3>
-        <div class="font-weight-light text-h6 mb-2">
-          Craft CMS is our choice of content management system (CMS), that puts you in control of your content & layout.
-        A website is a brands most important marketing tool.<br>
-        </div>
-      </v-card-text>
-    </v-card>
-  </v-hover>
-</v-app>
-</div>
-<br><br>
-<div class="col-sm-12 col-md-3 col-12 up-2-anim" id="card4" style="position:relative">
- <v-app id="inspire">
-<v-hover v-slot="{ hover }">
-    <v-card
-      class="mx-auto"
-      color="grey lighten-4"
-      width="100%"
-      height="100%"
-    >
-      <v-img
-        :aspect-ratio="16/10"
-        src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2440/Shape-2018-LR-106_d2799ae4d9532e75c7b76f8fe7c80560.webp"
-      >
-        <v-expand-transition>
-          <div
-            v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
-            style="height: 100%;"
-          >
-            Get Service ?
-          </div>
-        </v-expand-transition>
-      </v-img>
-      <v-card-text
-        class="pt-6"
-        style="position: relative;"
-      >
-        <v-btn
-          absolute
-          color="#ff7675"
-          class="white--text"
-          fab
-          large
-          right
-          top
-        >
-          <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
-        </v-btn>
-        <div class="font-weight-light grey--text text-h6 mb-2">
-          For the perfect
-        </div>
-        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
-          Web Design
-        </h3>
-        <div class="font-weight-light text-h6 mb-2">
           A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.<br>
           A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
-        </div>
-      </v-card-text>
-    </v-card>
+          </div>
+        </v-card-text>
+            </div>
   </v-hover>
- </v-app>
   </div>
   </div>
   </div>
-  </v-content>
   <footer><h1><br></h1></footer>
-</div>
+  </div>
 </template>
 <script>
 import navbar from '../components/header.vue'
@@ -233,31 +194,11 @@ export default {
   components: {
     navbar
   }
-  // data: () => ({
-  //   loading: false,
-  //   selection: 1
-  // }),
-  // methods: {
-  //   reserve () {
-  //     this.loading = true
-
-  //     setTimeout(() => (this.loading = false), 2000)
-  //   }
-  // }
 }
 </script>
 <style>
- /* #about, #app{
-  background-color:#2d3436 ;
-  height: 100vh;
-} */
-/* #card1{
-  margin-top: -30;
-} */
-@media screen and (max-width:600px) {
-  .col-md-3 {
-    width: 100%;
-  }
+.row{
+  display: flex;
 }
 .v-card--reveal {
   align-items: center;
@@ -285,11 +226,6 @@ export default {
   top:0;
   z-index: 10;
 }
-/* #Services{
-background-color: #dfe6e9;
-    opacity: 0.99;
-height: 100%;
-} */
 .continer{
 background-color: #dfe6e9;
     opacity: 0.99;
@@ -324,5 +260,13 @@ background-color: #dfe6e9;
     opacity: 1;
     transform: translateY(0);
 }
+}
+.col-md-3{
+      flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-sm-12{
+    flex: 0 0 50%;
+    width:  50%;
 }
 </style>
