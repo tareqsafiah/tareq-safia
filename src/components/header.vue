@@ -1,6 +1,5 @@
 <template>
-  <div class="continer">
-    <v-toolbar id="navbar" flat elevation="1" app dark class="position-fixed">
+    <v-app-bar id="navbar" app text elevation="1" dark class="position-fixed">
        <v-app-bar-nav-icon class="hidden-md-and-up" @click="sidebar = !sidebar"></v-app-bar-nav-icon>
       <v-navigation-drawer v-model="sidebar" app hide-overlay temporary>
         <v-list>
@@ -9,35 +8,31 @@
                   <div class="row">
     <div dense elevation="1" class="col-sm-12 col-12" style="position: absolute; left: 10px; bottom: 10px;">
       <h4>You Can also click her to contact Us:</h4>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="mailto:tareq.safyah@gmail.com" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-email theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://www.facebook.com/eng.comunicat" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-facebook theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://wa.me/963992752024" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-whatsapp theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://www.instagram.com/tareq.safiah/" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-instagram theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://www.youtube.com/channel/UCNPSyfLmpM_wT-oxvDaunJA" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-youtube theme--light" style="font-size: 24px;"></i></a></span></button>
-      <button data-v-822f34ec="" type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a data-v-822f34ec="" href="https://twitter.com/SlayerSafia" class="links"><i data-v-822f34ec="" aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px; text-decoration:none;"></i></a></span></button>
+      <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="mailto:tareq.safyah@gmail.com" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-email theme--dark" style="font-size: 24px;"></i></a></span></button>
+      <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.facebook.com/eng.comunicat" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-facebook theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://wa.me/963992752024" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-whatsapp theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.instagram.com/tareq.safiah/" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-instagram theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.youtube.com/channel/UCNPSyfLmpM_wT-oxvDaunJA" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-youtube theme--light" style="font-size: 24px;"></i></a></span></button>
+      <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://twitter.com/SlayerSafia" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px; text-decoration:none;"></i></a></span></button>
        </div>
   </div>
                   </v-list>
       </v-navigation-drawer>
     <v-toolbar-items d-flex id="titl">
-      <v-toolbar-title><v-btn flat depressed>Tareq Safiah</v-btn></v-toolbar-title>
+      <v-toolbar-title><v-btn text depressed>Tareq Safiah</v-btn></v-toolbar-title>
     </v-toolbar-items>
       <v-spacer></v-spacer>
       <!-- <hidden-sm-and-up> -->
       <v-toolbar-items id="itm" class="hidden-sm-and-down" style="text-decoration:none;">
-      <!-- <v-btn id="bt1" flat depressed to="/">Home</v-btn>
-      <v-btn id="bt2" flat depressed to="/Services/">Services</v-btn>
-      <v-btn id="bt3" flat depressed to="/MyWork/">My Work</v-btn>
-      <v-btn id="bt3" flat depressed to="/contact/">Contact</v-btn> -->
- <v-btn id="bt" flat depressed v-for="item in menuItems" :key="item.title" style="text-decoration:none; color:#dfe6e9">
-          <router-link :to="item.path" style="text-decoration:none; color:#dfe6e9">{{item.title}}</router-link>
-        </v-btn>
+      <v-btn id="bt1" text depressed to="/">Home</v-btn>
+      <v-btn id="bt2" text depressed to="/Services/">Services</v-btn>
+      <v-btn id="bt3" text depressed to="/MyWork/">My Work</v-btn>
+      <v-btn id="bt4" text depressed to="/contact/">Contact</v-btn>
       </v-toolbar-items>
-      <v-btn icon id="bt4">
+      <v-btn icon id="bt5">
         <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-shape-square-rounded-plus</v-icon></a>
       </v-btn>
-    </v-toolbar>
-  </div>
+    </v-app-bar>
 </template>
 <script>
 // export default {
@@ -99,16 +94,28 @@ border-bottom: 3px;
     overflow-wrap: break-word;
     white-space: normal;
 }
-/* #bt2 :hover{
-  background-color: transparent;
+#bt1 :hover{
+ background-color: #ff7675;
+text-decoration: double;
+color: black;
+border-bottom: 3px;
 }
 #bt3 :hover{
-  background-color: transparent;
-} */
+background-color: #ff7675;
+text-decoration: double;
+color: black;
+border-bottom: 3px;
+}
 /* .theme--light.v-application {
     color: rgba(0,0,0,.87);
 } */
 #bt4:hover{
+background-color: #ff7675;
+text-decoration: double;
+color: black;
+border-bottom: 3px;
+}
+#bt5:hover{
 background-color: #ff7675;
 text-decoration: double;
 color: black;
