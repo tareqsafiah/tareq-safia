@@ -1,5 +1,5 @@
 <template>
-  <div id="mywork">
+  <div id="Services">
     <navbar id="nav"/>
   <div class="continer">
    <div class="row">
@@ -9,7 +9,7 @@
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
-            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <div class="v-image__image v-image__image--cover" style="background-image: url('https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2440/Shape-2018-LR-106_d2799ae4d9532e75c7b76f8fe7c80560.webp'); background-position: center center;">
             <v-expand-transition>
             <div
               v-if="hover"
@@ -53,7 +53,7 @@
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
-            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <div class="v-image__image v-image__image--cover" style="background-image: url('https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp'); background-position: center center;">
             <v-expand-transition>
             <div
               v-if="hover"
@@ -97,7 +97,7 @@
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
-            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <div class="v-image__image v-image__image--cover" style="background-image: url('https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/142670/Shape-2018-LR-100_5472332afa344033d2bf9e7b6b9d883e.jpg'); background-position: center center;">
             <v-expand-transition>
             <div
               v-if="hover"
@@ -143,7 +143,7 @@
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
-            <div class="v-image__image v-image__image--cover" style="background-image: url(&quot;../assets/Capture1.JPG&quot;); background-position: center center;">
+            <div class="v-image__image v-image__image--cover" style="background-image: url('https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2440/Shape-2018-LR-106_d2799ae4d9532e75c7b76f8fe7c80560.webp'); background-position: center center;">
             <v-expand-transition>
             <div
               v-if="hover"
