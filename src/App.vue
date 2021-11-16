@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <div class="continer xs-12 sm-6 md-4 lg-3"  id="headerDemo">
+    <div class="container xs-12 sm-6 md-4 lg-3"  id="headerDemo">
       <!-- <tollbar></tollbar> -->
         <router-view></router-view>
 <!-- <div class="row">
