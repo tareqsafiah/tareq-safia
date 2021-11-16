@@ -1,7 +1,7 @@
 <template>
 <div id="home">
     <navbar id="nav"/>
-    <div class="continer" id="backg">
+    <div class="container" id="backg">
     <div class="row">
       <div class="col-sm-12 col-md-5 col">
       <br><br><br>
@@ -131,9 +131,6 @@ color: #ff7675;
     overflow-wrap: break-word;
     white-space: normal;
 }
-  /* #mid{
- width: ;
-  } */
   .btn{
             left: 4%;
             position: relative;
@@ -199,7 +196,7 @@ color: #ff7675;
             left: 50%;
             transform: translate(-50%,-50%);
         }
-        .continer{
+        .container{
           background: #dfe6e9;
           opacity: 0.99;
           height: 100%;
@@ -208,16 +205,6 @@ color: #ff7675;
     display: flex;
     position: sticky;
 }
-/* .theme--light.v-application {
-    font-family: Roboto,sans-serif;
-    line-height: 1.5;
-} */
-/* html {
-    font-size: 16px;
-    text-rendering: optimizeLegibility;
-    word-break: normal;
-    tab-size: 4;
-} */
         .right-15-anim {
     -webkit-animation: transation-right 1.5s;
     animation: transation-right 2.5s;
