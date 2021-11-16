@@ -30,7 +30,7 @@
       <v-btn id="bt4" text depressed to="/contact/">Contact</v-btn>
       </v-toolbar-items>
       <v-btn icon id="bt5">
-        <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-shape-square-rounded-plus</v-icon></a>
+        <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-shape-square-rounded-plus</v-icon></a>
       </v-btn>
     </v-app-bar>
 </template>
@@ -46,8 +46,9 @@ export default {
       menuItems: [
         { path: '/', name: 'Home', title: 'Home', icon: 'home' },
         { path: '/Services', name: 'Services', title: 'Services' },
-        { path: 'MyWork', name: 'My Work', title: 'My Work' },
-        { path: '/contact', name: 'contact', title: 'contact' }
+        { path: 'mywork', name: 'My Work', title: 'My Work' },
+        { path: '/contact', name: 'contact', title: 'contact' },
+        { path: '/getservice', name: 'Get Service', title: 'Get Service' }
       ]
     }
   }
