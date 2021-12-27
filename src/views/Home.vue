@@ -1,7 +1,7 @@
 <template>
 <div id="home">
     <navbar id="nav"/>
-    <div class="container" id="backg">
+    <div class="container-fluid" id="backg">
     <div class="row">
       <div class="col-sm-12 col-md-5 col">
       <br><br><br>
@@ -15,8 +15,8 @@
               <h6>Get in touch with us for a quick quote</h6>
             </div>
           <div class="middel">
-            <a href="/MyWork/" class="btn btn1">Review My Work</a>
-            <a href="GetService/" class="btn btn2">Start a Project</a>
+            <a href="/mywork/" class="btn btn1">My Work</a>
+            <a href="getservice/" class="btn btn2">Start a Project</a>
       </div>
         </div>
       </div>
@@ -33,12 +33,10 @@
 
 <script>
 import navbar from '../components/header.vue'
-// import bodyy from '../components/body.vue'
 export default {
   name: 'home',
   components: {
     navbar
-    // bodyy
   }
 }
 </script>
@@ -48,11 +46,6 @@ background-color: #dfe6e9;
     opacity: 0.99;
 height: 100%;
 }
-/* .continer{
-background-color: #dfe6e9;
-    opacity: 0.99;
-    height: 100%;
-} */
 #nav{
   position: sticky;
   top:0;
@@ -65,11 +58,6 @@ background-color: #dfe6e9;
     opacity: 1;
 
 }
-/* @media screen and (max-width:600px) {
-  .colm {
-    width: 100%;
-  }
-} */
 #t1,
 #t2,
 #t3
@@ -79,16 +67,14 @@ background-color: #dfe6e9;
   font-size: 25px;
   left: 4%;
   display: inline;
-  /* width: 250px; */
   height: 100px;
   font-weight: bold;
   position: relative;
   animation-name: mymove;
   animation-duration: 2.5s;
   animation-iteration-count: 1;
-    animation-timing-function: ease;
-    /* font-family: weight-bold; */
-    cursor: pointer;
+  animation-timing-function: ease;
+  cursor: pointer;
 }
 @keyframes mymove {
   from {left: -110%;}
@@ -139,8 +125,9 @@ color: #ff7675;
             font-size: 20px;
             font-family: "monttserrat";
             text-decoration: none;
-            width: 70%;
+            width: fit-content;
             margin: 30px 0;
+            width: 50%;
             border: 2px solid #ff7675;
             padding: 14px 40px;
             overflow: hidden;
@@ -196,7 +183,7 @@ color: #ff7675;
             left: 50%;
             transform: translate(-50%,-50%);
         }
-        .container{
+        body{
           background: #dfe6e9;
           opacity: 0.99;
           height: 100%;
@@ -220,3 +207,4 @@ color: #ff7675;
 }
 }
 </style>
+
