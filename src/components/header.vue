@@ -28,7 +28,7 @@
       <v-toolbar-items id="itm" class="hidden-sm-and-down" style="text-decoration:none;">
       <v-btn id="bt1" text depressed to="/">Home</v-btn>
       <v-btn id="bt2" text depressed to="/Services/">Services</v-btn>
-      <v-btn id="bt3" text depressed to="/MyWork/">My Work</v-btn>
+      <v-btn id="bt3" text depressed to="/mywork/">My Work</v-btn>
       <v-btn id="bt4" text depressed to="/contact/">Contact</v-btn>
       </v-toolbar-items>
       <v-btn icon id="bt5">
