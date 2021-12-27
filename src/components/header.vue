@@ -5,8 +5,9 @@
         <v-list>
           <v-list-item v-for="(item, i) in menuItems" exact :key="i" :to="item.path">{{item.title}}</v-list-item>
                   <hr>
+                  <div class="container-fluid">
                   <div class="row">
-    <div dense elevation="1" class="col-sm-12 col-12" style="position: absolute; left: 10px; bottom: 10px;">
+    <div dense elevation="1" class="col-sm-12 col-12" style="position: absolute; left: 10px; top: 450px;">
       <h4>You Can also click her to contact Us:</h4>
       <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="mailto:tareq.safyah@gmail.com" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-email theme--dark" style="font-size: 24px;"></i></a></span></button>
       <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.facebook.com/eng.comunicat" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-facebook theme--light" style="font-size: 24px;"></i></a></span></button>
@@ -15,6 +16,7 @@
       <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://www.youtube.com/channel/UCNPSyfLmpM_wT-oxvDaunJA" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-youtube theme--light" style="font-size: 24px;"></i></a></span></button>
       <button text depressed type="button" class="mx-4 v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><a href="https://twitter.com/SlayerSafia" class="links"><i aria-hidden="true" class="v-icon notranslate mdi mdi-twitter theme--light" style="font-size: 24px; text-decoration:none;"></i></a></span></button>
        </div>
+  </div>
   </div>
                   </v-list>
       </v-navigation-drawer>
@@ -140,5 +142,9 @@ border-bottom: 3px;
 #titl :hover{
     transform: rotateZ(360deg);
     transition: width 6s;
+}
+.col-sm-12{
+    flex: 0 0 100%;
+    width:  100%;
 }
 </style>
