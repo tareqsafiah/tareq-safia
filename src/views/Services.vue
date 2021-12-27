@@ -1,9 +1,9 @@
 <template>
   <div id="Services">
     <navbar id="nav"/>
-  <div class="continer">
+  <div class="container-fluid">
    <div class="row">
-    <div class="col-sm-12 col-md-3 down-2-anim" id="card1">
+<div class="col-sm-12 col-md-3 col-12" id="card1">
       <v-hover v-slot="{ hover }">
         <div class="v-card v-sheet theme--light" style="height: 90%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
@@ -40,14 +40,18 @@
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Web Development
           </h3>
+          <div class="container-md">
+            <div class="row">
           <div class="font-weight-light text-h6 mb-2">
            Any brand knows that a website is their most important marketing tool. It can deliver rich content, to a wide audience in a short period of time.
+          </div>
+            </div>
           </div>
             </v-card-text>
             </div>
     </v-hover>
   </div>
-<div class="col-sm-12 col-md-3 up-2-anim" id="card2">
+<div class="col-sm-12 col-md-3 col-12" id="card2">
 <v-hover v-slot="{ hover }">
         <div class="v-card v-sheet theme--light" style="height: 100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
@@ -84,14 +88,19 @@
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             SEO
           </h3>
+          <div class="container-md">
+            <div class="row">
           <div class="font-weight-light text-h6 mb-2">
               Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
-              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.          </div>
-            </v-card-text>
+              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
+               </div>
             </div>
+            </div>
+            </v-card-text>
+   </div>
   </v-hover>
 </div>
-<div class="col-sm-12 col-md-3 down-2-anim" id="card3">
+<div class="col-sm-12 col-md-3 col-12" id="card3">
 <v-hover v-slot="{ hover }">
           <div class="v-card v-sheet theme--light" style="height: 90%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
@@ -128,16 +137,19 @@
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Graphic Design
           </h3>
+          <div class="container-md">
+            <div class="row">
           <div class="font-weight-light text-h6 mb-2">
             A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
             A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
           </div>
+            </div>
+          </div>
         </v-card-text>
             </div>
   </v-hover>
-
 </div>
-<div class="col-sm-12 col-md-3 up-2-anim" id="card4">
+<div class="col-sm-12 col-md-3 col-12" id="card4">
 <v-hover v-slot="{ hover }">
             <div class="v-card v-sheet theme--light" style="height: 100%; max-width:100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
@@ -174,9 +186,13 @@
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Web Design
           </h3>
+          <div class="container-md">
+            <div class="row">
           <div class="font-weight-light text-h6 mb-2">
           A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.<br>
           A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
+          </div>
+            </div>
           </div>
         </v-card-text>
             </div>
@@ -226,12 +242,14 @@ export default {
   top:0;
   z-index: 10;
 }
-.continer{
+body{
 background-color: #dfe6e9;
     opacity: 0.99;
     height: 100%;
 }
-.up-2-anim {
+#card2,
+#card4
+{
 
     -webkit-animation: transation-up 2s;
     animation: transation-up 2s;
@@ -246,7 +264,9 @@ background-color: #dfe6e9;
     transform: translateY(0);
 }
 }
-.down-2-anim {
+#card1,
+#card3
+ {
 
     -webkit-animation: transation-down 2s;
     animation: transation-down 2s;
@@ -263,10 +283,11 @@ background-color: #dfe6e9;
 }
 .col-md-3{
       flex: 0 0 25%;
-    max-width: 25%;
+    width: 25%;
 }
 .col-sm-12{
-    flex: 0 0 50%;
-    width:  50%;
+    flex: 0 0 100%;
+    width:  100%;
+    height: 90%;
 }
 </style>
