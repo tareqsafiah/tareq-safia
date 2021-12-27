@@ -1,7 +1,7 @@
 <template>
 <div id="contact">
     <navbar id="nav"/>
-      <div class="continer">
+      <div class="container-fluid">
     <div class="row">
     <div class="col-sm-12 col-md-7 col" id="forrm">
       <div id="card1" class="left-15-anim v-card v-sheet theam--light" style="height: 700px;">
@@ -72,7 +72,7 @@
   </div>
   <div class="col-sm-12 col-md-5 col" id="forrm">
     <div div id="card1" class="right-15-anim v-card v-sheet theam--light" style="min-height: 700px;">
-<div class="continer mt-2">
+<div class="container mt-2">
   <div class="row">
     <div class="col-md-11 col-12">
       <h3><i class="v-icon notranslate text-h5 mdi mdi-map-marker-right theam--light" aria-hidden="true">  </i>  Location:</h3>
@@ -162,7 +162,6 @@ export default {
 </script>
 <style>
 #forrm{
-    /* margin-left: 10px; */
     top: 30px;
 }
 #sub{
@@ -174,7 +173,7 @@ export default {
 #sub3{
     background-color: rgb(0, 153, 255);
 }
-.continer{
+body{
 background-color: #dfe6e9;
     opacity: 0.99;
     height: 100%;
