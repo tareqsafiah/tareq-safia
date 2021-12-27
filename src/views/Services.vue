@@ -1,11 +1,14 @@
 <template>
   <div id="Services">
     <navbar id="nav"/>
-  <div class="container">
+  <div class="container-fluid">
    <div class="row">
 <div class="col-sm-12 col-md-3 col-12" id="card1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
       <v-hover v-slot="{ hover }">
-        <div class="v-card v-sheet theme--light" style="height: 90%;">
+        <div class="v-card v-sheet theme--light" style="height: 100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
@@ -35,23 +38,31 @@
             right
             top
           >
-            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+            <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
           </v-btn>
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Web Development
           </h3>
-          <div class="container-md">
+          <div class="container-fluid">
             <div class="row">
+              <div class="col-md-12 col 12">
           <div class="font-weight-light text-h6 mb-2">
            Any brand knows that a website is their most important marketing tool. It can deliver rich content, to a wide audience in a short period of time.
           </div>
+              </div>
             </div>
           </div>
             </v-card-text>
             </div>
     </v-hover>
+      </div>
+    </div>
+  </div>
   </div>
 <div class="col-sm-12 col-md-3 col-12" id="card2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 <v-hover v-slot="{ hover }">
         <div class="v-card v-sheet theme--light" style="height: 100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
@@ -83,26 +94,34 @@
             right
             top
           >
-            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+            <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
           </v-btn>
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             SEO
           </h3>
-          <div class="container-md">
+          <div class="container-fluid">
             <div class="row">
+              <div class="col-md-12 col 12">
           <div class="font-weight-light text-h6 mb-2">
               Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
               A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
                </div>
+              </div>
             </div>
             </div>
             </v-card-text>
    </div>
   </v-hover>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="col-sm-12 col-md-3 col-12" id="card3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 <v-hover v-slot="{ hover }">
-          <div class="v-card v-sheet theme--light" style="height: 90%;">
+          <div class="v-card v-sheet theme--light" style="height: 100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
@@ -132,24 +151,32 @@
             right
             top
           >
-            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+            <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
           </v-btn>
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Graphic Design
           </h3>
-          <div class="container-md">
+          <div class="container-fluid">
             <div class="row">
+              <div class="col-md-12 col-12">
           <div class="font-weight-light text-h6 mb-2">
             A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
-            A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
+            A Graphic Design Studio in Manchester who offers honest advice
           </div>
+              </div>
             </div>
           </div>
         </v-card-text>
             </div>
   </v-hover>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="col-sm-12 col-md-3 col-12" id="card4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 <v-hover v-slot="{ hover }">
             <div class="v-card v-sheet theme--light" style="height: 100%; max-width:100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
@@ -181,22 +208,27 @@
             right
             top
           >
-            <a href="/GetService/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
+            <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart-variant</v-icon></a>
           </v-btn>
           <h3 class="text-h4 font-weight-light Very light red--text mb-2">
             Web Design
           </h3>
-          <div class="container-md">
+          <div class="container-fluid">
             <div class="row">
+              <div class="col-md-12 col 12">
           <div class="font-weight-light text-h6 mb-2">
           A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.<br>
           A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
           </div>
+              </div>
             </div>
           </div>
         </v-card-text>
             </div>
   </v-hover>
+      </div>
+    </div>
+  </div>
   </div>
   </div>
   </div>
@@ -288,6 +320,6 @@ background-color: #dfe6e9;
 .col-sm-12{
     flex: 0 0 100%;
     width:  100%;
-    height: 90%;
+    height: 100%;
 }
 </style>
