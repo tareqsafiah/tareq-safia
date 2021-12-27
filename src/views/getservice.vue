@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <div id="GetService">
+    <div id="getservice">
     <navbar id="nav"/>
     <br>
     <div class="container">
@@ -189,7 +189,7 @@
 <script>
 import navbar from '../components/header.vue'
 export default {
-  name: 'GetService',
+  name: 'getservice',
   components: {
     navbar
   }
@@ -239,27 +239,6 @@ input[type=text] ,[type=date] , [type=url] ,[type=email] ,[type=tel] {
   background-color: #e9ecea57;
   border-radius: 4px;
   box-sizing: border-box;
-}
-.column {
-    padding: 0px 32px;
-  width: 30%;
-  left: 2%;
-  /* margin: auto; */
-}
-#firstcol{
-  /* margin: 0px 150px; */
-  left: 2%;
-}
-#secondcol{
-    /* margin: 0px -200px; */
-  left: 2%;
-}
-.colom{
-    top: 0;
-    padding: 0px 32px;
-  width: 50%;
-  left: 2%;
-  /* margin: 0px 150px; */
 }
 textarea {
   width: 100%;
