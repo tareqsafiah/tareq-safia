@@ -1,7 +1,7 @@
 <template>
   <div id="Services">
     <navbar id="nav"/>
-  <div class="container-fluid">
+  <div class="container">
    <div class="row">
 <div class="col-sm-12 col-md-3 col-12" id="card1">
       <v-hover v-slot="{ hover }">
