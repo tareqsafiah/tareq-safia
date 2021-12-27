@@ -1,11 +1,12 @@
 <template>
+<v-app>
     <div id="GetService">
     <navbar id="nav"/>
     <br>
-    <div class="container" data-v-822f34ec="">
-      <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-7 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-12 col-md-7 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
         <h1 class="mt-5 down-15-anim" id="titl">Let’s start something great together.</h1>
         <br>
         <h2 id="titll">We are a web design agency who creates <br>bespoke solutions for you and your brand.<br> So the more information you can give us, the more accurate the quotation will be.</h2>
@@ -13,9 +14,9 @@
         </div>
       </div>
       </div>
-    <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-7 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
+    <div class="row">
+      <div class="col-sm-12 col-md-7 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
         <h3 style="padding:0 32px;">A little bit about yourself</h3>
         <br>
         <h5 style="padding:0 32px;">What's your name and where'd ya come from?</h5>
@@ -23,11 +24,11 @@
         </div>
       </div>
     </div>
-            <form class="v-form" data-v-d53af812="" novalidate="novalidate">
-      <div class="continer" data-v-d53af812="">
-    <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-6 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
+            <form class="v-form" novalidate="novalidate">
+      <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
         <label for="Full Name" >Name:</label><br>
         <input type="text" class="form-control" placeholder="Full Name..." id="name" name="Full Name" required
           autofocus><br>
@@ -38,8 +39,8 @@
         <input type="text" class="form-control" id="Existing Websit" name="Existing Websit" autofocus><br>
         </div>
       </div>
-      <div class="col-sm-12 col-md-6 col">
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
+      <div class="col-sm-12 col-md-6 col-12">
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
            <label for="Company">Company:</label><br>
         <input type="text" class="form-control" placeholder="Company..." id="name" name="Company" required
           autofocus><br>
@@ -50,23 +51,23 @@
         </div>
       </div>
     </div>
-        <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-7 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
-        <h3 style="padding:0 32px;">Tell us about your project</h3>
+        <div class="row">
+      <div class="col-sm-12 col-md-7 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
+        <h3 >Tell us about your project</h3>
         <br>
-        <h4 style="padding:0 32px;">Which services do you require?</h4>
+        <h4 >Which services do you require?</h4>
         <br>
           </div>
       </div>
         </div>
-    <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-6 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
           <h4>Category:</h4>
-          <div class="continer">
-            <div class="row" data-v-d53af812="">
-      <div class="col-md-4 col-12" data-v-d53af812="">
+          <div class="container">
+            <div class="row">
+      <div class="col-sm-12 col-md-4 col-12">
         <!-- <label for="Category" style="font-size: 15px;"><h4>Category</h4></label><br> -->
         <input type="checkbox" class="form-check-input myCheck" id="Category" value="Website">
         <label for="Website" class="form-check-label hov"> Website</label><br>
@@ -75,7 +76,7 @@
         <input type="checkbox" class="form-check-input myCheck" id="Category" value="Craft CMS">
         <label for="Craft CMS" class="form-check-label hov"> Craft CMS</label><br>
             </div>
-      <div class="col-md-4 col-12" data-v-d53af812="" style="top:5%">
+      <div class="col-sm-12 col-md-4 col-12" data-v-d53af812="" style="top:5%">
         <input type="checkbox" class="form-check-input myCheck" id="Category" value="Web Design">
         <label for="Web Design" class="form-check-label hov"> Web Design</label><br>
         <input type="checkbox" class="form-check-input myCheck" id="Category" value="Other">
@@ -87,19 +88,18 @@
       </div>
     </div>
     </div>
-    <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-6 col down-15-anim" >
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-12 down-15-anim" >
         <br>
-        <div id="card1" class="c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
-          <div class="continer">
-            <div class="row" data-v-d53af812="">
-      <div class="col-md-6 col-12" data-v-d53af812="">
+        <div id="card1" class="c-sheet theme--light">
+          <div class="container">
+            <div class="row">
+      <div class="col-sm-12 col-md-6 col-12">
         <label for="Start" >Ideal Start Date:</label><br>
-        <input type="date" class="form-control" placeholder="e.g. dd/mm/yyyy" id="Start" name="Start" required
-          autofocus><br>
+        <input type="date" class="form-control" placeholder="e.g. dd/mm/yyyy" id="Start" name="Start" required autofocus><br>
       </div>
       <br>
-      <div class="col-md-6 col-12" data-v-d53af812="">
+      <div class="col-sm-12 col-md-6 col-12">
         <label for="End" >Ideal End Date:</label><br>
         <input type="date" class="form-control" placeholder="e.g. dd/mm/yyyy" id="End" name="End" required
           autofocus><br>
@@ -109,54 +109,55 @@
         </div>
       </div>
     </div>
-    <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-6 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
-          <div class="continer">
-            <div class="row" data-v-d53af812="">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
+          <div class="container">
+            <div class="row">
             <br><br>
-            <label for="End" >Anything else we should know?:</label><br>
-            <textarea id="Anything"></textarea><br>
+            <label for="End" style="padding:0 10px;" >Anything else we should know?:</label><br>
+            <textarea id="Anything" style="padding:0 10px;"></textarea><br>
         </div>
     </div>
         </div>
       </div>
-    <div class="row" data-v-822f34ec="">
-            <div class="col-sm-12 col-md-6 col" >
-          <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
+      <div class="container">
+    <div class="row">
+            <div class="col-sm-12 col-md-6 col-12" >
+          <div id="card1" class="down-15-anim v-card c-sheet theme--light">
             <br><br>
-            <h2>Let's talk about money...</h2>
+            <h2 style="padding:0 10px;">Let's talk about money...</h2>
               </div>
             </div>
     </div>
-        <div class="row" data-v-822f34ec="">
-                <div class="col-sm-12 col-md-6 col" >
-            <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
-            <h4>A guide budget would help us advise on how best you can invest your money.</h4><br>
+        <div class="row">
+                <div class="col-sm-12 col-md-6 col-12">
+            <div id="card1" class="down-15-anim v-card c-sheet">
+            <h4 style="padding:0 10px;">A guide budget would help us advise on how best you can invest your money.</h4><br>
     </div>
                 </div>
         </div>
-    <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-6 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="" style="min-height: 220px;">
-          <h4>Budget:</h4>
-          <div class="continer">
-            <div class="row" data-v-d53af812="">
-              <div class="col-md-6 col-12" data-v-d53af812="">
-            <input type="radio" value="Male" id="Budget" class="form-check-input">
-            <label for="male" class="form-check-label hov"> I Don't Know </label><br>
-            <input type="radio" value="Female" id="Budget" class="form-check-input">
-            <label for="Female" class="form-check-label hov"> 100,000 SP >300,000 SP</label><br>
-            <input type="radio" value="Other" id="Budget" class="form-check-input">
-            <label for="Other" class="form-check-label hov"> 300,000 SP >500,000 SP</label><br>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light" style="min-height: 220px;">
+          <h4 style="padding:0 10px;">Budget:</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-12">
+            <input type="radio" id="I Don't Know" name="Budget" class="form-check-input">
+            <label for="I Don't Know" class="form-check-label hov"> I Don't Know </label><br>
+            <input type="radio" id="100,000 SP >300,000 SP" name="Budget" class="form-check-input">
+            <label for="Budget" class="form-check-label hov"> 100,000 SP >300,000 SP</label><br>
+            <input type="radio" id="300,000 SP >500,000 SP" name="Budget" class="form-check-input">
+            <label for="Budget" class="form-check-label hov"> 300,000 SP >500,000 SP</label><br>
         </div>
-              <div class="col-md-6 col-12" data-v-d53af812="">
-            <input type="radio" value="Other" id="Budget" class="form-check-input">
-            <label for="Other" class="form-check-label hov"> 500,000 SP >800,000 SP</label><br>
-            <input type="radio" value="Other" id="Budget" class="form-check-input">
-            <label for="Other" class="form-check-label hov"> 800,000 SP >1000,000 SP</label><br>
-            <input type="radio" value="Other" id="Budget" class="form-check-input">
-            <label for="Other" class="form-check-label hov"> + 1000,000 SP</label><br>
+              <div class="col-md-6 col-12">
+            <input type="radio" id="500,000 SP >800,000 SP" name="Budget" class="form-check-input">
+            <label for="Budget" class="form-check-label hov"> 500,000 SP >800,000 SP</label><br>
+            <input type="radio" id="800,000 SP >1000,000 SP" name="Budget" class="form-check-input">
+            <label for="Budget" class="form-check-label hov"> 800,000 SP >1000,000 SP</label><br>
+            <input type="radio" id="+ 1000,000 SP" name="Budget" class="form-check-input">
+            <label for="Budget" class="form-check-label hov"> + 1000,000 SP</label><br>
             <!-- <br><br><br> -->
       </div>
             </div>
@@ -165,13 +166,14 @@
       </div>
     </div>
     </div>
+    </div>
       </form>
-      <div class="row" data-v-822f34ec="">
-      <div class="col-sm-12 col-md-6 col" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light" data-v-d53af812="" data-v-822f34ec="">
-              <div class="continer">
-            <div class="row" data-v-d53af812="">
-              <div class="col-md-6 col-11" data-v-d53af812="">
+      <div class="row">
+      <div class="col-sm-12 col-md-6 col-12" >
+        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
+              <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-12">
             <a href="" class="btn btnn">Start a Project</a>
             <br><br>
         </div>
@@ -182,6 +184,7 @@
     </div>
     </div>
     </div>
+</v-app>
 </template>
 <script>
 import navbar from '../components/header.vue'
@@ -320,26 +323,10 @@ color: #ff7675;
         .btnn:hover::before{
             height: 650%;
         }
-        #GetService{
+        body{
 background-color: #dfe6e9;
     opacity: 0.99;
 height: 100%;
-}
-.left-15-anim {
-    -webkit-animation: transation-left 1.5s;
-    animation: transation-left 2.5s;
-}
-@keyframes transation-left{
-
-  0% {
-    opacity: 0;
-    transform: translatex(-40px);
-
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-}
 }
 .right-15-anim {
     -webkit-animation: transation-right 1.5s;
@@ -349,20 +336,6 @@ height: 100%;
   0% {
     opacity: 0;
     transform: translatex(40px);
-}
-100% {
-    opacity: 1;
-    transform: translateY(0);
-}
-}
-.up-15-anim {
-    -webkit-animation: transation-up 1.5s;
-    animation: transation-up 1.5s;
-}
-@keyframes transation-up{
-  0% {
-    opacity: 0;
-    transform: translatey(40px);
 }
 100% {
     opacity: 1;
