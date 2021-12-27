@@ -1,30 +1,25 @@
 <template>
 <v-app>
-    <div class="container xs-12 sm-6 md-4 lg-3"  id="headerDemo">
-      <!-- <tollbar></tollbar> -->
+<div class="continer-fluid"  id="app">
+<!-- <v-app-bar app> -->
+    <!-- <div class="continer" id="app"> -->
         <router-view></router-view>
-<!-- <div class="row">
-        <carou></carou>
-        </div> -->
-    </div>
+            <v-footer padless>
+    <v-col
+      class="text-center"
+      cols="12"
+    >
+      <strong>Copyright ©</strong> {{ new Date().getFullYear() }} <strong>Tareq Safiah. all rights reserved.</strong>
+    </v-col>
+  </v-footer>
+    <!-- </div> -->
+<!-- </v-app-bar> -->
+</div>
 </v-app>
 </template>
 
 <script>
-// import tollbar from './components/header'
-// import call from './components/slideshow.html'
-// import teeeet from './components/background'
-// import foot from "./components/footer";
-
-// import carou from './components/caro'
-
 export default {
-  name: 'headerDemo'
-  // components: {
-  //   tollbar
-  //   // teeeet,
-  //   carou
-  //   // call
-  // }
+  name: 'app'
 }
 </script>
