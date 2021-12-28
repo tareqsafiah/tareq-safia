@@ -1,7 +1,6 @@
 <template>
 <v-app>
-    <div id="GetService">
-    <navbar id="nav"/>
+    <div id="getservice">
     <br>
     <div class="container">
       <div class="row">
@@ -186,15 +185,6 @@
     </div>
 </v-app>
 </template>
-<script>
-import navbar from '../components/header.vue'
-export default {
-  name: 'GetService',
-  components: {
-    navbar
-  }
-}
-</script>
 
 <style scoped>
     #titl{
@@ -281,11 +271,6 @@ color: #ff7675;
   width: 100%;
   left: 2%;
   /* margin: auto; */
-}
-#nav{
-  position: sticky;
-  top:0;
-  z-index: 10;
 }
        .btn{
             width: 100%;
