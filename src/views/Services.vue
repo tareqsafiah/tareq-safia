@@ -19,7 +19,7 @@
         <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
+            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h4 white--text"
             style="height: 100%;"
           >
             Get Service ?
@@ -46,7 +46,6 @@
         </h3>
         <div class="font-weight-light text-h6 mb-2">
           Any brand knows that a website is their most important marketing tool. It can deliver rich content, to a wide audience in a short period of time.
-          
         </div>
       </v-card-text>
     </v-card>
@@ -72,59 +71,7 @@
         <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
-            style="height: 100%;"
-          >
-            Get Service ?
-          </div>
-        </v-expand-transition>
-      </v-img>
-      <v-card-text
-        class="pt-6"
-        style="position: relative;"
-      >
-        <v-btn
-          absolute
-          color="#ff7675"
-          class="white--text"
-          fab
-          large
-          right
-          top
-        >
-          <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
-        </v-btn>
-        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
-          Graphic Design
-        </h3>
-        <div class="font-weight-light text-h6 mb-2"> A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
-            A Graphic Design Studio in Manchester who offers honest advice
-        </div>
-      </v-card-text>
-    </v-card>
-  </v-hover>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-sm-12 col-md-3 col-12" id="card3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-<v-hover v-slot="{ hover }">
-<v-card
-      class="mx-auto"
-      color="grey lighten-4"
-      max-width="350"
-    >
-      <v-img
-        :aspect-ratio="16/10"
-        src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp"
-      >
-        <v-expand-transition>
-          <div
-            v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
+            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h4 white--text"
             style="height: 100%;"
           >
             Get Service ?
@@ -151,7 +98,58 @@
         </h3>
         <div class="font-weight-light text-h6 mb-2">Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
               A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
-               
+        </div>
+      </v-card-text>
+    </v-card>
+  </v-hover>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-3 col-12" id="card3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+<v-hover v-slot="{ hover }">
+<v-card
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="350"
+    >
+      <v-img
+        :aspect-ratio="16/10"
+        src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h4 white--text"
+            style="height: 100%;"
+          >
+            Get Service ?
+          </div>
+        </v-expand-transition>
+      </v-img>
+      <v-card-text
+        class="pt-6"
+        style="position: relative;"
+      >
+        <v-btn
+          absolute
+          color="#ff7675"
+          class="white--text"
+          fab
+          large
+          right
+          top
+        >
+          <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
+        </v-btn>
+        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
+          SEO
+        </h3>
+        <div class="font-weight-light text-h6 mb-2">Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
+              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
         </div>
       </v-card-text>
     </v-card>
@@ -177,7 +175,7 @@
         <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h2 white--text"
+            class="d-flex transition-fast-in-fast-out Very light red v-card--reveal text-h4 white--text"
             style="height: 100%;"
           >
             Get Service ?
@@ -200,10 +198,10 @@
           <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
         </v-btn>
         <h3 class="text-h4 font-weight-light Very light red--text mb-2">
-          Web Design
+          SEO
         </h3>
-        <div class="font-weight-light text-h6 mb-2">A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.<br>
-          A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
+        <div class="font-weight-light text-h6 mb-2">Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
+              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
         </div>
       </v-card-text>
     </v-card>
