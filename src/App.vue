@@ -1,8 +1,7 @@
 <template>
 <v-app>
 <div class="continer-fluid"  id="app">
-<!-- <v-app-bar app> -->
-    <!-- <div class="continer" id="app"> -->
+      <navbar id="nav"/>
         <router-view></router-view>
             <v-footer padless>
     <v-col
@@ -12,14 +11,23 @@
       <strong>Copyright ©</strong> {{ new Date().getFullYear() }} <strong>Tareq Safiah. all rights reserved.</strong>
     </v-col>
   </v-footer>
-    <!-- </div> -->
-<!-- </v-app-bar> -->
 </div>
 </v-app>
 </template>
 
 <script>
+import navbar from './components/header.vue'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    navbar
+  }
 }
 </script>
+<style>
+#nav{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+</style>
