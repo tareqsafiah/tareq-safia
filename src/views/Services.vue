@@ -13,7 +13,7 @@
       max-width="350"
     >
       <v-img
-        :aspect-ratio="16/10"
+        :aspect-ratio="16/9"
         src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2440/Shape-2018-LR-106_d2799ae4d9532e75c7b76f8fe7c80560.webp"
       >
         <v-expand-transition>
@@ -65,7 +65,7 @@
       max-width="350"
     >
       <v-img
-        :aspect-ratio="16/10"
+        :aspect-ratio="16/9"
         src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp"
       >
         <v-expand-transition>
@@ -117,7 +117,7 @@
       max-width="350"
     >
       <v-img
-        :aspect-ratio="16/10"
+        :aspect-ratio="16/9"
         src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp"
       >
         <v-expand-transition>
@@ -169,7 +169,7 @@
       max-width="350"
     >
       <v-img
-        :aspect-ratio="16/10"
+        :aspect-ratio="16/9"
         src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2492/Shape-2018-LR-172_d2799ae4d9532e75c7b76f8fe7c80560.webp"
       >
         <v-expand-transition>
@@ -215,9 +215,6 @@
   </v-app>
 </template>
 <style>
-.row{
-  display: flex;
-}
 .v-card--reveal {
   align-items: center;
   bottom: 0;
@@ -286,5 +283,9 @@ background-color: #dfe6e9;
     flex: 0 0 100%;
     width:  100%;
     height: 100%;
+}
+.col-12 {
+    flex: 0 0 100%;
+    width: 100%;
 }
 </style>
