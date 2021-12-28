@@ -10,7 +10,7 @@
         <v-card
       class="mx-auto"
       color="grey lighten-4"
-      max-width="600"
+      max-width="350"
     >
       <v-img
         :aspect-ratio="16/10"
