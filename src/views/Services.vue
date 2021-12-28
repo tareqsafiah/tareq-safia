@@ -41,7 +41,7 @@
         >
           <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
         </v-btn>
-        <h3 class="text-h4 font-weight-light orange--text mb-2">
+        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
           Web Development
         </h3>
         <div class="font-weight-light text-h6 mb-2">
@@ -94,12 +94,11 @@
         >
           <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
         </v-btn>
-        <h3 class="text-h4 font-weight-light orange--text mb-2">
-          SEO
+        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
+          Graphic Design
         </h3>
-        <div class="font-weight-light text-h6 mb-2">Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
-              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
-               
+        <div class="font-weight-light text-h6 mb-2"> A Graphic Design Studio in Manchester who offers honest advice, industry experience and great portfolio of work.
+            A Graphic Design Studio in Manchester who offers honest advice
         </div>
       </v-card-text>
     </v-card>
@@ -147,7 +146,7 @@
         >
           <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
         </v-btn>
-        <h3 class="text-h4 font-weight-light orange--text mb-2">
+        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
           SEO
         </h3>
         <div class="font-weight-light text-h6 mb-2">Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
@@ -200,12 +199,11 @@
         >
           <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
         </v-btn>
-        <h3 class="text-h4 font-weight-light orange--text mb-2">
-          SEO
+        <h3 class="text-h4 font-weight-light Very light red--text mb-2">
+          Web Design
         </h3>
-        <div class="font-weight-light text-h6 mb-2">Increase the visibility of your website within search engines such as Google to increase traffic and revenue. Everything we do is organic.
-              A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
-               
+        <div class="font-weight-light text-h6 mb-2">A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.<br>
+          A website is a brands most important marketing tool.<br> It can deliver rich content, to a wide audience in a short period of time.
         </div>
       </v-card-text>
     </v-card>
