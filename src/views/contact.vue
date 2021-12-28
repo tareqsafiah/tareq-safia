@@ -112,13 +112,8 @@
 </div>
 </template>
 <script>
-import navbar from '../components/header.vue'
-
 export default {
   name: 'contact',
-  components: {
-    navbar
-  },
   data: () => ({
     valid: true,
     name: '',
@@ -177,11 +172,6 @@ body{
 background-color: #dfe6e9;
     opacity: 0.99;
     height: 100%;
-}
-#nav{
-  position: sticky;
-  top:0;
-  z-index: 10;
 }
 .v-card {
     border-width: thin;
