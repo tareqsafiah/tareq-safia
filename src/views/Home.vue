@@ -1,6 +1,5 @@
 <template>
-<div id="home">
-    <navbar id="nav"/>
+<v-app id="home">
     <div class="container-fluid" id="backg">
     <div class="row">
       <div class="col-sm-12 col-md-5 col">
@@ -28,29 +27,16 @@
     </div>
     </div>
   </div>
-    </div>
+</v-app>
 </template>
 
-<script>
-import navbar from '../components/header.vue'
-export default {
-  name: 'home',
-  components: {
-    navbar
-  }
-}
-</script>
 <style scoped>
 #home{
 background-color: #dfe6e9;
     opacity: 0.99;
 height: 100%;
 }
-#nav{
-  position: sticky;
-  top:0;
-  z-index: 10;
-}
+
 #midd {
     background-color: transparent;
     border: 0px;
