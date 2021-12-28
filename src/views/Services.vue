@@ -1,6 +1,5 @@
 <template>
-  <div id="Services">
-    <navbar id="nav"/>
+  <v-app id="Services">
   <div class="container-fluid">
    <div class="row">
 <div class="col-sm-12 col-md-3 col-12" id="card1">
@@ -8,7 +7,50 @@
     <div class="row">
       <div class="col-md-12">
       <v-hover v-slot="{ hover }">
-        <div class="v-card v-sheet theme--light" style="height: 100%;">
+        <v-card
+      class="mx-auto"
+      color="grey lighten-4"
+      max-width="600"
+    >
+      <v-img
+        :aspect-ratio="16/10"
+        src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/15cbde7adb337ff527f63208d331a2d8/2440/Shape-2018-LR-106_d2799ae4d9532e75c7b76f8fe7c80560.webp"
+      >
+        <v-expand-transition>
+          <div
+            v-if="hover"
+            class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal text-h2 white--text"
+            style="height: 100%;"
+          >
+            Get Service ?
+          </div>
+        </v-expand-transition>
+      </v-img>
+      <v-card-text
+        class="pt-6"
+        style="position: relative;"
+      >
+        <v-btn
+          absolute
+          color="orange"
+          class="white--text"
+          fab
+          large
+          right
+          top
+        >
+          <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-cart</v-icon></a>
+        </v-btn>
+        <h3 class="text-h4 font-weight-light orange--text mb-2">
+          Web Development
+        </h3>
+        <div class="font-weight-light text-h6 mb-2">
+          Our Vintage kitchen utensils delight any chef.<br>
+          Made of bamboo by hand
+        </div>
+      </v-card-text>
+    </v-card>
+        <!-- <div class="v-card v-sheet theme--light" style="height: 100%;">
               <div class="v-image v-responsive white--text align-end theme--light" :aspect-ratio="16/10">
             <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
                 </div>
@@ -53,13 +95,13 @@
             </div>
           </div>
             </v-card-text>
-            </div>
+            </div> -->
     </v-hover>
       </div>
     </div>
   </div>
   </div>
-<div class="col-sm-12 col-md-3 col-12" id="card2">
+<!-- <div class="col-sm-12 col-md-3 col-12" id="card2">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -229,21 +271,11 @@
       </div>
     </div>
   </div>
+  </div> -->
   </div>
   </div>
-  </div>
-  <footer><h1><br></h1></footer>
-  </div>
+  </v-app>
 </template>
-<script>
-import navbar from '../components/header.vue'
-export default {
-  name: 'Services',
-  components: {
-    navbar
-  }
-}
-</script>
 <style>
 .row{
   display: flex;
@@ -268,11 +300,6 @@ export default {
 }
 #card4{
   margin-top: 110px;
-}
-#nav{
-  position: sticky;
-  top:0;
-  z-index: 10;
 }
 body{
 background-color: #dfe6e9;
