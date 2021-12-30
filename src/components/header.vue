@@ -28,16 +28,13 @@
       <v-toolbar-items id="itm" class="hidden-sm-and-down" style="text-decoration:none;">
       <v-btn id="bt1" text depressed to="/">Home</v-btn>
       <v-btn id="bt2" text depressed to="/Services/">Services</v-btn>
-      <v-btn id="bt3" text depressed to="/mywork/">My Work</v-btn>
+      <v-btn id="bt3" text depressed to="/myWork/">My Work</v-btn>
       <v-btn id="bt4" text depressed to="/contact/">Contact</v-btn>
       </v-toolbar-items>
-      <v-btn id="bt5" text depressed to="/getservice/">
-        <v-icon>mdi-shape-square-rounded-plus</v-icon>
+      <v-btn icon id="bt5" text depressed to="/getservice/"><v-icon>mdi-shape-square-rounded-plus</v-icon>
       </v-btn>
     </v-app-bar>
 </template>
-
-// <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;">
 <script>
 // export default {
 //   name: 'navbar'
