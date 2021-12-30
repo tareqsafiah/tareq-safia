@@ -1,7 +1,5 @@
 <template>
-<v-app>
-    <div id="getservice">
-    <br>
+<v-app id="getservice">
     <div class="container">
       <div class="row">
       <div class="col-sm-12 col-md-7 col-12" >
@@ -87,6 +85,7 @@
       </div>
     </div>
     </div>
+    <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-12 down-15-anim" >
         <br>
@@ -108,6 +107,8 @@
         </div>
       </div>
     </div>
+    </div>
+    <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-12" >
         <div id="card1" class="down-15-anim v-card c-sheet theme--light">
@@ -158,30 +159,20 @@
             <input type="radio" id="+ 1000,000 SP" name="Budget" class="form-check-input">
             <label for="Budget" class="form-check-label hov"> + 1000,000 SP</label><br>
             <!-- <br><br><br> -->
-      </div>
+                 </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-      </form>
-      <div class="row">
-      <div class="col-sm-12 col-md-6 col-12" >
-        <div id="card1" class="down-15-anim v-card c-sheet theme--light">
-              <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-12">
-            <a href="" class="btn btnn">Start a Project</a>
-            <br><br>
-        </div>
-            </div>
-              </div>
-        </div>
+      <div class="middel">
+            <p class="btm btnn">
+            <v-btn text depressed to="">Start a Project</v-btn></p>
       </div>
     </div>
-    </div>
+  </div>
+</form>
     </div>
 </v-app>
 </template>
@@ -266,30 +257,25 @@ textarea {
 color: #ff7675;
 
   }
-.row{
-  float:left ;
-  width: 100%;
-  left: 2%;
-  /* margin: auto; */
-}
-       .btn{
-            width: 100%;
-           /* left:-85%; */
+  .btm{
+            left: 4%;
             position: relative;
             display: block;
             color: #2d3436;
-            font-size: 24px;
+            font-size: 20px;
             font-family: "monttserrat";
             text-decoration: none;
-            /* margin: 0px -50px; */
+            width: fit-content;
+            margin: 30px 0;
+            width: 100%;
             border: 2px solid #ff7675;
-            padding: 14px 30px;
+            padding: 14px 40px;
             overflow: hidden;
             transition: 1s all ease-out;
             border-radius: 10px;
             text-align: center;
         }
-        .btn::before{
+        .btm::before{
           text-decoration: none;
             background-color: #ff7675;
             content: "";
@@ -299,23 +285,32 @@ color: #ff7675;
             transform: translate(-50%, -50%);
             z-index: -1;
             transition: all 0.6s ease;
+            border-radius: 10px;
         }
         .btnn::before{
             width: 100%;
             height: 0;
             transform: translate(-50%, -50%) rotate(45deg);
+            border-radius: 10px;
         }
         .btnn:hover::before{
-            height: 650%;
+            height: 800%;
+            border-radius: 10px;
+        }
+        .middle{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
         }
         body{
-background-color: #dfe6e9;
-    opacity: 0.99;
-height: 100%;
+          background-color: #dfe6e9;
+          opacity: 0.99;
+          height: 100%;
 }
 .right-15-anim {
     -webkit-animation: transation-right 1.5s;
-    animation: transation-right 1.5s;
+     animation: transation-right 1.5s;
 }
 @keyframes transation-right{
   0% {
