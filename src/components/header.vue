@@ -31,11 +31,13 @@
       <v-btn id="bt3" text depressed to="/mywork/">My Work</v-btn>
       <v-btn id="bt4" text depressed to="/contact/">Contact</v-btn>
       </v-toolbar-items>
-      <v-btn icon id="bt5">
-        <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;"><v-icon>mdi-shape-square-rounded-plus</v-icon></a>
+      <v-btn icon id="bt5" text depressed to="/getservice/">
+        <v-icon>mdi-shape-square-rounded-plus</v-icon>
       </v-btn>
     </v-app-bar>
 </template>
+
+// <a href="/getservice/" style="text-decoration:none; color:#dfe6e9;">
 <script>
 // export default {
 //   name: 'navbar'
