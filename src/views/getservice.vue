@@ -1,6 +1,6 @@
 <template>
 <v-app id="getservice">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
       <div class="col-sm-12 col-md-7 col-12" >
         <div id="card1" class="down-15-anim v-card c-sheet theme--light">
