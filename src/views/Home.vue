@@ -16,8 +16,8 @@
           <div class="middel">
             <p class="btn btn1">
             <v-btn text depressed to="/mywork/">My Work</v-btn></p>
-            <p class="btn btn2">
-            <v-btn text depressed to="/getservice/" style="text-align: center;">Start a Project</v-btn></p>
+            <p class="btn btn2" style="text-align: center;">
+            <v-btn text depressed to="/getservice/">Start a Project</v-btn></p>
       </div>
         </div>
       </div>
