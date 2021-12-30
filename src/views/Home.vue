@@ -14,12 +14,14 @@
               <h6>Get in touch with us for a quick quote</h6>
             </div>
           <div class="middel">
-            <a href="/mywork/" class="btn btn1">My Work</a>
-            <a href="getservice/" class="btn btn2">Start a Project</a>
+            <p class="btn btn1">
+            <v-btn text depressed to="/mywork/">My Work</v-btn></p>
+            <p class="btn btn2">
+            <v-btn text depressed to="/getservice/">Start a Project</v-btn></p>
       </div>
         </div>
       </div>
- <div class="col-sm-12 col-md-6 col right-15-anim" id="mid">
+ <div class="col-sm-12 col-md-6 col right-15-anim">
       <div id="card2" class="v-sheet" style="position:relative">
             <v-img src="../assets/def.png"/>
             <br><br><br>
@@ -31,19 +33,19 @@
 </template>
 
 <style scoped>
-#home{
+body{
 background-color: #dfe6e9;
     opacity: 0.99;
 height: 100%;
 }
 
-#midd {
+/* #midd {
     background-color: transparent;
     border: 0px;
     box-shadow: 0px 0px 0px 0px;
     opacity: 1;
 
-}
+} */
 #t1,
 #t2,
 #t3
