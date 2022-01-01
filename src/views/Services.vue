@@ -14,7 +14,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-       src="../assets/web develop.jpg" >
+       src="../assets/web design.jpg" >
         <v-expand-transition>
           <div
             v-if="hover"
@@ -66,7 +66,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-        src="../assets/web design.jpg"
+        src="../assets/web develop.jpg"
       >
         <v-expand-transition>
           <div
