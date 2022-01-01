@@ -1,6 +1,6 @@
 <template>
 <v-app>
-<div class="continer-fluid"  id="app">
+<div class="container-fluid"  id="app">
       <navbar id="nav"/>
         <router-view></router-view>
             <v-footer padless>
