@@ -29,7 +29,7 @@
             <div class="row justify-center">
               <div class="col col-4">
                 <button type="button" class="blak--text v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default red lighten-5" role="button" aria-haspopup="true" aria-expanded="false">
-                  <span class="v-btn__content"><a href=" " style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
+                  <span class="v-btn__content"><a href="https://tareqsafiah.github.io/tareq-safiah-mazadak/" style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
 <div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
 
 <div class="down-2-anim col-sm-6 col-md-4 col-12">
