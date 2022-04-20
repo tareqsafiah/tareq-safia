@@ -32,6 +32,24 @@
                 <button type="button" class="blak--text v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default red lighten-5" role="button" aria-haspopup="true" aria-expanded="false">
                   <span class="v-btn__content" ><a href="https://task-manager-t.netlify.app/" style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
 <div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
+            <div class="up-2-anim col-sm-6 col-md-4 col-12">
+  <div class="v-card v-sheet theme--light" style="max-width: 400px;">
+    <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
+      <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
+        </div>
+        <div class="v-image__image v-image__image--cover">
+        <v-img
+              src="../assets/taskManager.JPG"/>
+        </div>
+        <div class="v-responsive__content" style="width: 626px;">
+          </div></div><div class="v-card__subtitle pb-0"> Task Manager </div>
+          <div class="v-card__text text--primary"><div>Manage projects, organize tasks</div>
+          </div><div class="v-card__actions">
+            <div class="row justify-center">
+              <div class="col col-4">
+                <button type="button" class="blak--text v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default red lighten-5" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="v-btn__content" ><a href="https://task-manager-t.netlify.app/" style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
+<div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
 <div class="down-2-anim col-sm-6 col-md-4 col-12">
   <div class="v-card v-sheet theme--light" style="max-width: 400px;">
     <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
