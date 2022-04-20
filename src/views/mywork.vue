@@ -14,7 +14,7 @@
       <div id="gallery">
       <div class="container">
         <div class="row">
-            <div class="up-2-anim col-sm-6 col-md-4 col-12">
+            <div class="down-2-anim col-sm-6 col-md-4 col-12">
   <div class="v-card v-sheet theme--light" style="max-width: 400px;">
     <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
       <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
@@ -69,7 +69,7 @@
                   <span class="v-btn__content" ><a href="https://tareqsafiah.github.io/weather/" style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
 <div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
 
-<div class="up-2-anim col-sm-6 col-md-4 col-12">
+<div class="down-2-anim col-sm-6 col-md-4 col-12">
   <div class="v-card v-sheet theme--light" style="max-width: 400px;">
     <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
       <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
@@ -87,7 +87,7 @@
                   <span class="v-btn__content"><a href="https://tareqsafiah.github.io/tareq-safiah-mazadak/" style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
 <div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
 
-<div class="down-2-anim col-sm-6 col-md-4 col-12">
+<div class="up-2-anim col-sm-6 col-md-4 col-12">
   <div class="v-card v-sheet theme--light" style="max-width: 400px;">
     <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
       <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
@@ -125,7 +125,7 @@
                   <span class="v-btn__content" ><a href=" " style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
 <div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
 
-<div class="up-2-anim col-sm-6 col-md-4 col-12">
+<div class="down-2-anim col-sm-6 col-md-4 col-12">
   <div class="v-card v-sheet theme--light" style="max-width: 400px;">
     <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
       <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
@@ -144,7 +144,7 @@
                   <span class="v-btn__content" ><a href=" " style="text-decoration: none; color: black;">Visit</a><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right-bold-circle theme--light"></i></span></button>
 <div role="dialog" class="v-dialog__container"></div></div></div></div></div></div>
 
-<div class="down-2-anim col-sm-6 col-md-4 col-12">
+<div class="up-2-anim col-sm-6 col-md-4 col-12">
   <div class="v-card v-sheet theme--light" style="max-width: 400px;">
     <div class="v-image v-responsive white--text align-end theme--light" style="height: 200px;">
       <div class="v-responsive__sizer" style="padding-bottom: 56.23%;">
