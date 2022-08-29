@@ -8,7 +8,7 @@
     >
       <v-tab>Latest Design</v-tab>
       <v-tab-item
-        v-for="n in 3"
+        v-for="n in 4"
         :key="n"
       >
       <div id="gallery">
